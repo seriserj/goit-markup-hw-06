@@ -436,18 +436,35 @@ margin: 0 auto;
 }
 .subscribe_svg {
 position: absolute;
-left: 345px;
+left: 510px;
 }
 .subscribe_form {
- 
+padding: 12px 0px;
+display: flex;
+gap: 12px;
 }
 .subscribe-div {
 position: absolute;
 display: column;
 justify-content: center;
 bottom: 50px;
-right: 300px;
+right: 60px;
 }
+.subscribe_input {
+    outline: none;
+    margin-top: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    background-color: var(--light-black);
+}
+.subscribe_input:hover {
+border-color: var(--blue);
+}
+
 /* Portfolio style*/
 
 .portfolio__nav {
