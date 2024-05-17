@@ -531,6 +531,20 @@ background-color: var(--blue);
     background-color: #fff;
     color: #2a2a2a;
 }
+.box_overlay {
+    position: relative;
+    overflow: hidden;
+}
+.overlay_text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+     font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: var(--white);
+     padding: 60px;   
+}
+
 /* Style modal */
 
 .is-hidden {
