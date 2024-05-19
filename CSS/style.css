@@ -343,6 +343,9 @@ margin-top: 94px;
 .Customers-section li:hover {
     border-color:var(--blue)
 }
+.item3:hover {
+   fill: var(--blue);
+}
 /* Footer section style*/
 .footer {
     height: 251px;
