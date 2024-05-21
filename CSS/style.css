@@ -411,6 +411,7 @@ margin-right: 1100px;
 
 .subscribe {
     position: relative;
+    
 }
 .subscribe_title {
 font-family: "Roboto", sans-serif;
@@ -435,11 +436,12 @@ line-height: 30px;
 letter-spacing: 0.06em;
 text-align: center;
 border-radius: 4px;
-margin: 0 auto;
+margin-left: 10px;
+
 }
 .subscribe_svg {
 position: absolute;
-left: 510px;
+left: 520px;
 }
 .subscribe_form {
 padding: 12px 0px;
@@ -449,9 +451,9 @@ gap: 12px;
 .subscribe-div {
 position: absolute;
 display: column;
-justify-content: center;
-bottom: 50px;
-right: 60px;
+bottom: 40px;
+right: 100px;
+    justify-content: center;
 }
 .subscribe_input {
     outline: none;
@@ -463,6 +465,7 @@ right: 60px;
     width: 358px;
     height: 50px;
     background-color: var(--light-black);
+    padding: 20px;
 }
 .subscribe_input:hover {
 border-color: var(--blue);
